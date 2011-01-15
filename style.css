@@ -1,1 +1,8 @@
 /* $Id$ */
+
+body {
+  font-family: Arial;
+  font-size: 12pt;
+  color: #666666;
+  line-height: 18px;
+}
