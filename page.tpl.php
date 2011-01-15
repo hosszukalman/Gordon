@@ -89,7 +89,6 @@
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>
     <?php print $scripts; ?>
-    <script type="text/javascript"><?php /* Needed to avoid Flash of Unstyled Content in IE */ ?> </script>
   </head>
   <body class="<?php print $body_classes; ?>">
     <div id="header">
@@ -109,7 +108,7 @@
         <?php endif; ?>
 
         <?php if (!empty($primary_links)): ?>
-          <div id="primary" class="clear-block">
+          <div id="primary">
             <?php print theme('links', $primary_links, array('class' => 'links primary-links')); ?>
           </div>
         <?php endif; ?>
@@ -118,22 +117,22 @@
     <div id="page">
 
       <?php if (!empty($secondary_links)): ?>
-        <div id="secondary" class="clear-block">
+        <div id="secondary">
           <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')); ?>
         </div>
       <?php endif; ?>
 
       <?php if (!empty($breadcrumb)): ?><div id="breadcrumb"><?php print $breadcrumb; ?></div><?php endif; ?>
 
-      <div id="container" class="clear-block">
+      <div id="container">
 
       <?php if (!empty($left)): ?>
-        <div id="sidebar-left" class="column sidebar">
+        <div id="sidebar-left" class="sidebar">
           <?php print $left; ?>
         </div>
       <?php endif; ?>
 
-      <div id="main" class="column">
+      <div id="main">
         <?php if (!empty($title)): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
         <?php if (!empty($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
         <?php if (!empty($messages)): print $messages; endif; ?>
@@ -142,7 +141,7 @@
       </div> <!-- /main -->
 
       <?php if (!empty($right)): ?>
-        <div id="sidebar-right" class="column sidebar">
+        <div id="sidebar-right" class="sidebar">
           <?php print $right; ?>
         </div>
       <?php endif; ?>
