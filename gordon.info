@@ -1,0 +1,7 @@
+; $Id$
+name = Gordon
+description = Tableness theme for Drupal CMS.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = style.css
