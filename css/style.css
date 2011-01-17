@@ -50,10 +50,33 @@ h3 {
   width: 220px;
 }
 
+.sidebar .block {
+  border-right: 1px solid #D0DEB0;
+  border-bottom: 1px solid #D0DEB0;
+  border-left: 1px solid #D0DEB0;
+  -moz-border-radius:0px 0px 5px 5px;
+  -webkit-border-radius:0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+  -moz-box-shadow: 0px 0px 5px #D0DEB0;
+  -webkit-box-shadow: 0px 0px 10px #D0DEB0;
+  box-shadow: 0px 0px 10px #D0DEB0;
+  margin: 6px; /* because border is 1px */
+}
+
 .sidebar a {
   color: #2B6D75;
 }
 
+.sidebar h2 {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.sidebar .block-wrapper {
+  background: transparent url(../img/block_orange_header_bg.jpg) no-repeat left top;
+}
 /* LEFT */
 #sidebar-left {
   float: left;
