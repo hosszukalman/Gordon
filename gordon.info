@@ -4,4 +4,5 @@ description = Tableness theme for Drupal CMS.
 core = 6.x
 engine = phptemplate
 
-stylesheets[all][] = style.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
