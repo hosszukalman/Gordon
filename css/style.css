@@ -22,4 +22,15 @@ body {
   margin: 0px auto;
 }
 
+.sidebar {
+  width: 220px;
+}
+
+/* LEFT */
+#sidebar-left {
+  float: left;
+}
+
+/* RIGTH */
+
 /* FOOTER */
