@@ -8,6 +8,25 @@ body {
   background: #FFFFFF url(../img/body_bg.jpg) repeat-x left top;
 }
 
+h1, h2 {
+  font-family: Georgia;
+}
+
+h1 {
+  font-size: 26px;
+  color: #2B6C74;
+}
+
+h2 {
+  font-size: 20px;
+  color: #358791;
+}
+
+h3 {
+  font-size: 17px;
+  color: #666666;
+}
+
 /* HEADER */
 #header {
   background: transparent url(../img/header_bg.jpg) no-repeat left top;
