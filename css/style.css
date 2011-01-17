@@ -50,6 +50,10 @@ h3 {
   width: 220px;
 }
 
+.sidebar a {
+  color: #2B6D75;
+}
+
 /* LEFT */
 #sidebar-left {
   float: left;
