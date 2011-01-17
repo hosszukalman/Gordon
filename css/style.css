@@ -24,6 +24,7 @@ body {
 
 #main a {
   color: #FF6600;
+  text-decoration: none;
 }
 
 .sidebar {
