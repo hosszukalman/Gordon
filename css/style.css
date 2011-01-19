@@ -31,6 +31,28 @@ h3 {
   clear: both;
 }
 
+div.messages {
+  padding: 20px 20px 20px 70px;
+  color: #333333;
+  margin: 10px 0px;
+}
+
+div.messages ul {
+  padding-left: 10px;
+}
+
+div.messages.error {
+  background: #FFD2D2 url(../img/message_error_ico.jpg) no-repeat left top;
+}
+
+div.messages.status {
+  background: #BFFFBF url(../img/message_status_ico.jpg) no-repeat left top;
+}
+
+div.messages.warning {
+  background: #BFD9FF url(../img/message_warning_ico.jpg) no-repeat left top;
+}
+
 /* HEADER */
 #header {
   background: transparent url(../img/header_bg.jpg) no-repeat left top;
