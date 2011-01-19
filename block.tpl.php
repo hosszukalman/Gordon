@@ -26,14 +26,14 @@
  * @see template_preprocess_block()
  */
 ?>
-<div class="block-wrapper">
-  <div id="block-<?php print $block->module .'-'. $block->delta; ?>" class="block block-<?php print $block->module ?>">
-  <?php if ($block->subject): ?>
-    <h2><?php print $block->subject ?></h2>
-  <?php endif;?>
+<div class="block-top"></div>
+<div id="block-<?php print $block->module .'-'. $block->delta; ?>" class="block block-<?php print $block->module ?>">
+<?php if ($block->subject): ?>
+  <h2><?php print $block->subject ?></h2>
+<?php endif;?>
 
-    <div class="content">
-      <?php print $block->content ?>
-    </div>
+  <div class="content">
+    <?php print $block->content ?>
   </div>
 </div>
+<div class="block-bottom"></div>
