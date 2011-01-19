@@ -150,15 +150,17 @@
 
     </div> <!-- /page -->
 
-    <div id="footer">
-      <div id="footer-inner">
+    <div id="footer" class="c-b">
+      <div class="footer-inner">
         <?php if (!empty($footer)): print $footer; endif; ?>
-        <div id="footer-message">
-          PremiumThemes - Drupal
+      </div>
+      <div id="footer-message">
+        <div class="footer-inner">
+        PremiumThemes - Drupal
           <?php print $footer_message; ?>
           <?php print $feed_icons; ?>
-        </div> <!-- /footer-message -->
-      </div> <!-- /footer-inner -->
+        </div>
+      </div> <!-- /footer-message -->
     </div> <!-- /footer -->
 
     <?php print $closure; ?>
