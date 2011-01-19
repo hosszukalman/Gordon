@@ -51,15 +51,6 @@ h3 {
 }
 
 .sidebar .block {
-/*  border-right: 1px solid #D0DEB0;
-  border-bottom: 1px solid #D0DEB0;
-  border-left: 1px solid #D0DEB0;
-  -moz-border-radius:0px 0px 5px 5px;
-  -webkit-border-radius:0px 0px 5px 5px;
-  border-radius: 0px 0px 5px 5px;
-  -moz-box-shadow: 0px 0px 5px #D0DEB0;
-  -webkit-box-shadow: 0px 0px 10px #D0DEB0;
-  box-shadow: 0px 0px 10px #D0DEB0;*/
   background: transparent url(../img/block_content_bg.jpg) repeat-y left top;
   padding: 0px 20px;
 }
