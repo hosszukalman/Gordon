@@ -118,6 +118,23 @@ body.one-sidebar #main {
   padding: 5px 20px 0px 20px;
 }
 
+/* COMMENTS */
+#main div.comment {
+  border-top: 1px dashed #999999;
+  margin-bottom: 25px;
+}
+
+#main div.comment h3, #main div.comment h3 a {
+  color: #333333;
+  font-size: 14px;
+  margin: 10px 0px 3px 0px;
+}
+
+#main div.comment div.submitted {
+  color: #999999;
+  margin-bottom: 15px;
+}
+
 /* LEFT */
 #sidebar-left {
   float: left;
