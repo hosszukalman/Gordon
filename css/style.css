@@ -17,7 +17,7 @@ h1 {
   color: #2B6C74;
 }
 
-h2 {
+h2, #main h2 a {
   font-size: 20px;
   color: #358791;
 }
