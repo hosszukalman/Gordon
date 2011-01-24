@@ -67,6 +67,14 @@ div.messages.warning {
   margin: 0px auto;
 }
 
+#main {
+  float: left;
+}
+
+body.one-sidebar #main {
+  width: 740px;
+}
+
 #main a {
   color: #FF6600;
   text-decoration: none;
