@@ -113,6 +113,11 @@ body.one-sidebar #main {
   margin-top: 0px;
 }
 
+#main div.tabs ul.primary li a {
+  color: #333333;
+  padding: 5px 20px 0px 20px;
+}
+
 /* LEFT */
 #sidebar-left {
   float: left;
