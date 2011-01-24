@@ -31,6 +31,11 @@ h3 {
   clear: both;
 }
 
+/* border solid bottom #ccc */
+.b-s-b-ccc {
+  border-bottom: 1px solid #CCCCCC;
+}
+
 div.messages {
   padding: 20px 20px 20px 70px;
   color: #333333;
@@ -116,6 +121,23 @@ body.one-sidebar #main {
 #main div.tabs ul.primary li a {
   color: #333333;
   padding: 5px 20px 0px 20px;
+}
+
+#main div.meta {
+  background: #F0F2F3;
+  margin-top: 10px;
+}
+
+#main div.meta a {
+  color: #666666;
+}
+
+#main div.meta div.meta-row {
+  padding: 5px 15px;
+}
+
+#main .node {
+  margin-bottom: 50px;
 }
 
 /* COMMENTS */
