@@ -119,6 +119,20 @@ div.messages.warning {
   background: transparent url(../img/secondary_links_bg.jpg) no-repeat left top;
 }
 
+#secondary .secondary-links a {
+  color: #2B6C73;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#secondary .secondary-links {
+  padding: 8px 0px 0px 15px;
+}
+
+#secondary .secondary-links li {
+  padding: 0px 10px;
+}
+
 #main {
   float: left;
 }
