@@ -93,25 +93,29 @@
   <body class="<?php print $body_classes; ?>">
     <div id="header">
       <div id="header-inner">
-        <?php if (!empty($logo)): ?>
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-          </a>
-        <?php endif; ?>
+        <div id="header-top">
+          <?php if (!empty($logo)): ?>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+            </a>
+          <?php endif; ?>
 
-        <?php if (!empty($site_slogan)): ?>
-          <div id="site-slogan"><?php print $site_slogan; ?></div>
-        <?php endif; ?>
+          <?php if (!empty($site_slogan)): ?>
+            <div id="site-slogan"><?php print $site_slogan; ?></div>
+          <?php endif; ?>
 
-        <?php if (!empty($search_box)): ?>
-          <div id="search-box"><?php print $search_box; ?></div>
-        <?php endif; ?>
+          <?php if (!empty($search_box)): ?>
+            <div id="search-box"><?php print $search_box; ?></div>
+          <?php endif; ?>
+        </div> <!-- /header-top -->
 
-        <?php if (!empty($primary_links)): ?>
-          <div id="primary">
-            <?php print theme('links', $primary_links, array('class' => 'links primary-links')); ?>
-          </div>
-        <?php endif; ?>
+        <div id="header-bottom">
+          <?php if (!empty($primary_links)): ?>
+            <div id="primary">
+              <?php print theme('links', $primary_links, array('class' => 'links primary-links')); ?>
+            </div>
+          <?php endif; ?>
+        </div> <!-- /header-bottom -->
       </div> <!-- /header-inner -->
     </div> <!-- /header -->
     <div id="page">
