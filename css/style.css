@@ -66,6 +66,14 @@ div.messages.warning {
   margin: 0px auto;
 }
 
+#header-bottom {
+  height: 64px;
+}
+
+#header-top {
+  height: 76px;
+}
+
 /* PAGE */
 #page {
   width: 960px;
