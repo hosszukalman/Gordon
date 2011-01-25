@@ -113,6 +113,12 @@ div.messages.warning {
   margin: 0px auto;
 }
 
+#secondary {
+  height: 42px;
+  width: 960px;
+  background: transparent url(../img/secondary_links_bg.jpg) no-repeat left top;
+}
+
 #main {
   float: left;
 }
