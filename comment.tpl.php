@@ -46,5 +46,7 @@
     <?php endif; ?>
   </div>
 
-  <?php print $links ?>
+  <div class="meta">
+    <div class="meta-row"><?php print $links ?></div>
+  </div>
 </div>
