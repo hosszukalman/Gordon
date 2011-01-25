@@ -66,11 +66,21 @@ div.messages.warning {
   margin: 0px auto;
 }
 
+#header-inner {
+  width: 960px;
+  margin: 0px auto;
+}
+
 #header-bottom {
   height: 64px;
 }
 
 #header-top {
+  height: 76px;
+}
+
+#primary {
+  background: transparent url(../img/header_bottom_bg.jpg) no-repeat left top;
   height: 76px;
 }
 
