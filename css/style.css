@@ -84,6 +84,29 @@ div.messages.warning {
   height: 76px;
 }
 
+#primary .primary-links a {
+  font-size: 15px;
+  color: #FFFFFF;
+  font-family: Georgia;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+  background: transparent url(../img/primary_links_bg.jpg) no-repeat left top;
+}
+
+#primary .primary-links .first a {
+  background: none;
+  padding-left: 30px;
+}
+
+#primary .primary-links {
+  padding-top: 26px;
+}
+
+#primary .primary-links li {
+  padding: 0px;
+}
+
 /* PAGE */
 #page {
   width: 960px;
