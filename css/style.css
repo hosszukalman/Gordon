@@ -91,6 +91,26 @@ div.messages.warning {
   margin: 31px 0px 0px 5px;
 }
 
+#search-box {
+  float: right;
+  padding: 20px 10px 0px 0px;
+}
+
+#edit-search-theme-form-1-wrapper {
+  float: left;
+  margin: 0px;
+}
+
+#edit-search-theme-form-1 {
+  background: transparent url(../img/search_input_bg.png) no-repeat left top;
+  border: none;
+  font-size: 14px;
+  height: 36px;
+  padding-left: 15px;
+  padding-right: 0;
+  width: 179px;
+}
+
 #primary {
   background: transparent url(../img/header_bottom_bg.jpg) no-repeat left top;
   height: 76px;
