@@ -101,7 +101,7 @@
           <?php endif; ?>
 
           <?php if (!empty($site_slogan)): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
+            <span id="site-slogan"><?php print $site_slogan; ?></span>
           <?php endif; ?>
 
           <?php if (!empty($search_box)): ?>

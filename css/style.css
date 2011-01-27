@@ -79,6 +79,18 @@ div.messages.warning {
   height: 76px;
 }
 
+#logo {
+  margin-left: 10px;
+  float: left;
+}
+
+#site-slogan {
+  color: #FFFFFF;
+  font-size: 14px;
+  float: left;
+  margin: 31px 0px 0px 5px;
+}
+
 #primary {
   background: transparent url(../img/header_bottom_bg.jpg) no-repeat left top;
   height: 76px;
