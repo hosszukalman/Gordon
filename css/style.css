@@ -233,6 +233,28 @@ body.one-sidebar #main {
   margin-bottom: 50px;
 }
 
+/* PAGER */
+#main ul.pager li {
+  margin: 0px 0px 0px 2px;
+  padding: 2px 7px;
+  border: 1px solid #D3E2ED;
+}
+
+#main ul.pager li.pager-current {
+  background: #2B6D75;
+  border-color: #2B6D75;
+  color: #FFFFFF;
+}
+
+#main ul.pager li.pager-next, #main ul.pager li.pager-last, #main ul.pager li.pager-previous, #main ul.pager li.pager-first {
+  border: none;
+}
+
+#main ul.pager li a {
+  color: #2B6C74;
+  text-decoration: none;
+}
+
 /* COMMENTS */
 #main div.comment {
   border-top: 1px dashed #999999;
