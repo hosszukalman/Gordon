@@ -27,6 +27,10 @@ h3 {
   color: #666666;
 }
 
+p {
+  margin: 10px 0px;
+}
+
 .c-b {
   clear: both;
 }
