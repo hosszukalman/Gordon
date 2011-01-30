@@ -93,6 +93,7 @@ div.messages.warning {
   font-size: 14px;
   float: left;
   margin: 31px 0px 0px 5px;
+  max-width: 500px;
 }
 
 #search-box {
