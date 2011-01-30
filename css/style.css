@@ -373,8 +373,9 @@ body.two-sidebars #main {
 }
 
 #footer div.block {
-  width: 240px;
+  width: 220px;
   float: left;
+  padding: 0px 10px;
 }
 
 #footer h2 {
