@@ -211,6 +211,70 @@ body.one-sidebar #main {
   margin-top: 0px;
 }
 
+#user-login-top {
+  background: transparent url(../img/login_block_header_bg.jpg) no-repeat left top;
+  height: 50px;
+  padding: 0px 20px;
+}
+
+#user-login-block {
+  background: transparent url(../img/login_block_content_bg.jpg) repeat-y left top;
+}
+
+#user-login-bottom {
+  background: transparent url(../img/login_block_bottom_bg.jpg) no-repeat left top;
+}
+
+#user-login-top h2 {
+  color: #FFFFFF;
+  font-family: Arial;
+}
+
+#user-login-form a {
+  color: #7DF2FF;
+  text-decoration: none;
+}
+
+#user-login-form .item-list ul {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+#user-login-form .item-list ul li {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+#user-login-form .form-item label {
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#user-login-form .form-item label span.form-required {
+  color: #FF9900;
+}
+
+#user-login-form input.form-text {
+  border: none;
+  padding: 2px 5px;
+  width: 160px;
+}
+
+#user-login-form #edit-submit {
+  background: #FF9900;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9900', endColorstr='#FF6600');
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF9900), to(#FF6600));
+  background: -moz-linear-gradient(top, #FF9900, #FF6600);
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+#user-login-form #edit-name-wrapper {
+  margin-top: 0px;
+}
+
 #main div.tabs ul.primary li a {
   color: #333333;
   padding: 5px 20px 0px 20px;

@@ -26,14 +26,14 @@
  * @see template_preprocess_block()
  */
 ?>
-<div class="block-top"></div>
-<div id="block-<?php print $block->module .'-'. $block->delta; ?>" class="block block-<?php print $block->module ?>">
+<div id="user-login-top">
 <?php if ($block->subject): ?>
   <h2><?php print $block->subject ?></h2>
 <?php endif;?>
-
+</div>
+<div id="user-login-block" class="block block-<?php print $block->module ?>">
   <div class="content">
     <?php print $block->content ?>
   </div>
 </div>
-<div class="block-bottom"></div>
+<div id="user-login-bottom" class="block-bottom"></div>
