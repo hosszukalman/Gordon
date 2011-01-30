@@ -89,6 +89,13 @@
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>
     <?php print $scripts; ?>
+
+    <!--[if IE 8]>
+    <link type="text/css" rel="stylesheet" media="all" href="<?php echo base_path() . drupal_get_path('theme', 'gordon') ?>/css/ie8.css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link type="text/css" rel="stylesheet" media="all" href="<?php echo base_path() . drupal_get_path('theme', 'gordon') ?>/css/ie7.css" />
+    <![endif]-->
   </head>
   <body class="<?php print $body_classes; ?>">
     <div id="header">
