@@ -303,6 +303,9 @@ body.two-sidebars #main {
 }
 
 /* PAGER */
+#main ul.pager {
+  margin: 15px 0px;
+}
 #main ul.pager li {
   margin: 0px 0px 0px 2px;
   padding: 2px 7px;
