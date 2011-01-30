@@ -167,10 +167,11 @@ div.messages.warning {
 
 #main {
   float: left;
+  margin: 0px 20px;
 }
 
 body.one-sidebar #main {
-  width: 740px;
+  width: 700px;
 }
 
 #main a {
@@ -215,6 +216,7 @@ body.one-sidebar #main {
   background: transparent url(../img/login_block_header_bg.jpg) no-repeat left top;
   height: 50px;
   padding: 0px 20px;
+  margin-top: 10px;
 }
 
 #user-login-block {
