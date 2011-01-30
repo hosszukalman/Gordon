@@ -17,3 +17,11 @@ regions[right] = Left sidebar
 regions[content] = Content
 regions[footer] = Footer
 regions[front_top] = Front top
+
+; Features
+features[] = logo
+features[] = slogan
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
