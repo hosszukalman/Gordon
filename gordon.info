@@ -10,3 +10,10 @@ stylesheets[all][] = css/style.css
 
 ; JavaScript files
 scripts[] = js/scripts.js
+
+; Regions
+regions[left] = Left sidebar
+regions[right] = Left sidebar
+regions[content] = Content
+regions[footer] = Footer
+regions[front_top] = Front top
