@@ -157,6 +157,7 @@
     <div id="footer" class="c-b">
       <div class="footer-inner">
         <?php if (!empty($footer)): print $footer; endif; ?>
+        <div class="c-b"></div>
       </div>
       <div id="footer-message">
         <div class="footer-inner">

@@ -367,3 +367,23 @@ body.two-sidebars #main {
   text-align: center;
   border-top: 1px solid #999999;
 }
+
+#footer div.block {
+  width: 240px;
+  float: left;
+}
+
+#footer h2 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+#footer li {
+  border-bottom: 1px dotted #999999;
+  background: transparent url(../img/footer_list_bg.jpg) no-repeat 3px 10px;
+  padding-left: 15px;
+}
+
+#footer a {
+  color: #FFFFFF;
+}
