@@ -30,3 +30,7 @@ h2, #main h2 a {
 #front-page-wrapper {
   background: #FEFDED url("../img/front_top_bg.jpg") repeat-x left bottom;
 }
+
+#front-page-inner div.block a {
+  color: #0E3974;
+}
