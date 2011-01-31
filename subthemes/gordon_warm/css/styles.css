@@ -55,3 +55,11 @@ h2, #main h2 a {
 #user-login-bottom {
     background: transparent url("../img/login_block_bottom_bg.jpg") no-repeat left top;
 }
+
+#main a {
+  color: #0D3973;
+}
+
+.sidebar a {
+  color: #0F3A75;
+}
