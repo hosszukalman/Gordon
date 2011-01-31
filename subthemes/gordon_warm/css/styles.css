@@ -14,3 +14,11 @@ h2, #main h2 a {
 #header {
   background: transparent url("../img/header_bg.jpg") no-repeat left top;
 }
+
+#secondary {
+  background: transparent url(../img/secondary_links_bg.png) no-repeat left top;
+}
+
+#secondary .secondary-links a {
+  color: #0F3A75;
+}
