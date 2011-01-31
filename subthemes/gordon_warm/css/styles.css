@@ -22,3 +22,11 @@ h2, #main h2 a {
 #secondary .secondary-links a {
   color: #0F3A75;
 }
+
+#front-page {
+  background: transparent url("../img/front_top_inner_bg.jpg") no-repeat left top;
+}
+
+#front-page-wrapper {
+  background: #FEFDED url("../img/front_top_bg.jpg") repeat-x left bottom;
+}
