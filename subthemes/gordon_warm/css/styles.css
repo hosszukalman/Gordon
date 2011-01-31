@@ -34,3 +34,12 @@ h2, #main h2 a {
 #front-page-inner div.block a {
   color: #0E3974;
 }
+
+#main ul.pager li.pager-next a, #main ul.pager li.pager-last a, #main ul.pager li.pager-previous a, #main ul.pager li.pager-first a {
+  color: #0F3A75;
+}
+
+#main ul.pager li.pager-current {
+  background: #0F3A75;
+  border-color: #0F3A75;
+}
