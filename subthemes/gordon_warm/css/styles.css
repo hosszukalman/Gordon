@@ -1,1 +1,8 @@
 /* $Id$ */
+body {
+  background: #FFFFFF url("../img/body_bg.jpg") repeat-x left top;
+}
+
+#header {
+  background: transparent url("../img/header_bg.jpg") no-repeat left top;
+}
