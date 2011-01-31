@@ -3,6 +3,14 @@ body {
   background: #FFFFFF url("../img/body_bg.jpg") repeat-x left top;
 }
 
+h1 {
+  color: #0F3A75;
+}
+
+h2, #main h2 a {
+  color: #1759B3;
+}
+
 #header {
   background: transparent url("../img/header_bg.jpg") no-repeat left top;
 }
