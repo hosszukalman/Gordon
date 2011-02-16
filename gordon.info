@@ -1,6 +1,6 @@
 ; $Id$
 name = Gordon
-description = Tableness theme for Drupal CMS.
+description = Tableness theme for Drupal CMS by <a href="http://premiumthemesdrupal.com">Premium Themes Drupal<a>.
 core = 6.x
 engine = phptemplate
 
