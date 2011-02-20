@@ -1,4 +1,5 @@
 <?php
+// $Id$
 /**
  * Override search form theme.
  *
