@@ -15,3 +15,15 @@ function phptemplate_search_theme_form($form) {
   $form['submit']['#src'] = drupal_get_path('theme', 'gordon') . '/img/search_btn.png';
   return drupal_render($form);
 }
+
+/**
+ * Change the breadcrumb
+ *
+ * @param array $breadcrumb
+ * @return string
+ */
+function phptemplate_breadcrumb($breadcrumb) {
+  if (!empty($breadcrumb)) {
+    return '<div class="breadcrumb">' . implode('<span></span>', $breadcrumb) . '</div>';
+  }
+}
