@@ -7,7 +7,9 @@ body {
   line-height: 18px;
   background: #FFFFFF url(../img/body_bg.jpg) repeat-x left top;
 }
-
+table {
+    width: 100%;
+}
 h1, h2 {
   font-family: Georgia;
   margin: 15px 0px;
@@ -35,6 +37,9 @@ p {
 .c-b {
   clear: both;
 }
+a {
+    text-decoration: none;
+}
 
 /* border solid bottom #ccc */
 .b-s-b-ccc {
@@ -52,15 +57,15 @@ div.messages ul {
 }
 
 div.messages.error {
-  background: #FFD2D2 url(../img/message_error_ico.jpg) no-repeat left top;
+  background: #FFD2D2 url(../img/message_error_ico.jpg) no-repeat 0px 13px;
 }
 
 div.messages.status {
-  background: #BFFFBF url(../img/message_status_ico.jpg) no-repeat left top;
+  background: #BFFFBF url(../img/message_status_ico.jpg) no-repeat 0px 13px;
 }
 
 div.messages.warning {
-  background: #BFD9FF url(../img/message_warning_ico.jpg) no-repeat left top;
+  background: #BFD9FF url(../img/message_warning_ico.jpg) no-repeat 0px 13px;
 }
 
 /* HEADER */
@@ -112,8 +117,7 @@ div.messages.warning {
   border: none;
   font-size: 14px;
   height: 36px;
-  padding-left: 15px;
-  padding-right: 0;
+  padding: 0px 0px 0px 15px;
   width: 179px;
 }
 
@@ -154,7 +158,7 @@ div.messages.warning {
 #secondary {
   height: 42px;
   width: 960px;
-  background: transparent url(../img/secondary_links_bg.png) no-repeat left top;
+  background: url(../img/secondary_links_bg.png) no-repeat center bottom;
 }
 
 #secondary .secondary-links a {
@@ -174,10 +178,11 @@ div.messages.warning {
 #main {
   float: left;
   margin: 0px 20px;
+  padding: 0px 0px 20px 0px;
 }
 
 body.one-sidebar #main {
-  width: 700px;
+  width: 680px;
 }
 
 body.two-sidebars #main {
@@ -189,12 +194,16 @@ body.two-sidebars #main {
 }
 
 .sidebar {
-  width: 220px;
+  width: 230px;
 }
 
 .sidebar .block {
   background: transparent url(../img/block_content_bg.jpg) repeat-y left top;
   padding: 0px 20px;
+}
+.sidebar .block h2 {
+    font-family: Arial, Helvetica, sans;
+    
 }
 
 .sidebar .block-top {
@@ -267,8 +276,9 @@ body.two-sidebars #main {
 
 #user-login-form input.form-text {
   border: none;
-  padding: 2px 5px;
+  padding: 3px 5px;
   width: 160px;
+  border: 2px solid #D0E494;
 }
 
 #user-login-form #edit-submit {
@@ -285,10 +295,18 @@ body.two-sidebars #main {
 #user-login-form #edit-name-wrapper {
   margin-top: 0px;
 }
-
-#main div.tabs ul.primary li a {
-  color: #333333;
-  padding: 5px 20px 0px 20px;
+#main .tabs {
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+}
+#main .tabs .primary li a{
+    background: url("../img/tab_bg.jpg") repeat-x top left;
+    color: #333333;
+    border-top: 1px solid #DDD;
+    padding: 5px 20px 5px 20px;
+}
+#main .tabs .primary .active {
+    background: #FFF;
 }
 
 #main div.meta {
@@ -302,6 +320,52 @@ body.two-sidebars #main {
 
 #main div.meta div.meta-row {
   padding: 5px 15px;
+}
+
+/* BLOCK MENU */
+.menu .expanded {
+    list-style-image: url("../img/menu_open.png");
+}
+.menu .collapsed {
+    list-style-image: url("../img/menu_closed.png");
+}
+
+.menu .leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
+.menu .active {
+    font-weight: bold;
+}
+
+/* BREADCRUMB */
+#breadcrumb {
+    background: url("../img/breadcrumb_bg.png") no-repeat top left;
+    margin-top: 10px;
+}
+#breadcrumb div{
+    background: url("../img/breadcrumb_end_bg.png") no-repeat top right;
+    height: 27px;
+    padding: 3px 10px 0px 10px;
+}
+#breadcrumb a {
+    background: url("../img/breadcrumb_split.png") no-repeat 100% 50%;
+    color: #666;
+    display: block;
+    padding-right: 14px;
+    margin-right: 8px;
+    height: 20px;
+    float: left;
+}
+
+/* FORMS */
+fieldset {
+    padding: 15px;
+    border: 1px solid #DDD;
+    margin: 10px 0px;
+}
+fieldset legend {
+    font-weight: bold;
 }
 
 /* PAGER */
@@ -353,6 +417,7 @@ body.two-sidebars #main {
 /* LEFT */
 #sidebar-left {
   float: left;
+  padding-left: 10px;
 }
 
 /* RIGTH */

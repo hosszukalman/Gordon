@@ -131,9 +131,7 @@
         <div id="secondary">
           <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')); ?>
         </div>
-      <?php endif; ?>
-
-      <?php if (!empty($breadcrumb)): ?><div id="breadcrumb"><?php print $breadcrumb; ?></div><?php endif; ?>
+      <?php endif; ?>      
 
       <div id="container">
 
@@ -144,6 +142,7 @@
       <?php endif; ?>
 
       <div id="main">
+        <?php if (!empty($breadcrumb)): ?><div id="breadcrumb"><div><?php print $breadcrumb; ?></div></div><?php endif; ?>
         <?php if (!empty($title)): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
         <?php if (!empty($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
         <?php if (!empty($messages)): print $messages; endif; ?>
@@ -168,9 +167,9 @@
       </div>
       <div id="footer-message">
         <div class="footer-inner">
-        PremiumThemes - Drupal
-          <?php print $footer_message; ?>
-          <?php print $feed_icons; ?>
+            <a href="http://www.premiumthemesdrupal.com" target="_blank">PremiumThemes - Drupal</a>
+            <?php print $footer_message; ?>
+            <?php print $feed_icons; ?>
         </div>
       </div> <!-- /footer-message -->
     </div> <!-- /footer -->
