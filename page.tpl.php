@@ -167,7 +167,7 @@
       </div>
       <div id="footer-message">
         <div class="footer-inner">
-            <a href="http://www.premiumthemesdrupal.com" target="_blank">PremiumThemes - Drupal</a>
+            <a href="http://www.premiumthemesdrupal.com" target="_blank" class="pt_logo"></a>
             <?php print $footer_message; ?>
             <?php print $feed_icons; ?>
         </div>
