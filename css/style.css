@@ -13,6 +13,7 @@ table {
 h1, h2 {
   font-family: Georgia;
   margin: 15px 0px;
+  line-height: 1.2em;
 }
 
 h1 {
@@ -194,7 +195,7 @@ body.two-sidebars #main {
 }
 
 .sidebar {
-  width: 230px;
+  width: 220px;
 }
 
 .sidebar .block {
@@ -203,7 +204,10 @@ body.two-sidebars #main {
 }
 .sidebar .block h2 {
     font-family: Arial, Helvetica, sans;
-    
+}
+.sidebar .block p {
+    margin: 0px;
+    padding: 5px 0px;
 }
 
 .sidebar .block-top {
@@ -344,7 +348,7 @@ body.two-sidebars #main {
     margin-top: 10px;
 }
 #breadcrumb div{
-    background: url("../img/breadcrumb_end_bg.png") no-repeat top right;
+    background: url("../img/breadcrumb_endbg.png") no-repeat top right;
     height: 27px;
     padding: 3px 10px 0px 10px;
 }
@@ -417,7 +421,6 @@ fieldset legend {
 /* LEFT */
 #sidebar-left {
   float: left;
-  padding-left: 10px;
 }
 
 /* RIGTH */
@@ -495,4 +498,11 @@ fieldset legend {
 #front-page-inner div.block a {
   color: #FF6600;
   text-decoration: none;
+}
+.pt_logo {
+    background: url("../img/premium_themes_logo.png") no-repeat top left;
+    width: 160px;
+    height: 43px;
+    display: block;
+    margin: 5px auto 5px auto;
 }
