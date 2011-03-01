@@ -27,3 +27,12 @@ function phptemplate_breadcrumb($breadcrumb) {
     return '<div class="breadcrumb">' . implode('<span></span>', $breadcrumb) . '</div>';
   }
 }
+
+/**
+ *
+ * @param <type> $vars
+ */
+function phptemplate_preprocess_page(&$vars) {
+  $ie6nomore = theme_get_setting('gordon_ie6nomore');
+  $vars['ie6nomore'] = is_null($ie6nomore) ? 1 : $ie6nomore;
+}
