@@ -431,7 +431,7 @@ fieldset legend {
 /* FOOTER */
 #footer {
   background: #666666;
-  color: #FFFFFF;
+  color: #CCC;
 }
 
 .footer-inner {
@@ -464,6 +464,9 @@ fieldset legend {
 
 #footer a {
   color: #FFFFFF;
+}
+#footer a:hover {
+  text-decoration: underline;
 }
 
 /* Front */
