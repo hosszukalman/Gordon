@@ -299,19 +299,38 @@ body.two-sidebars #main {
 #user-login-form #edit-name-wrapper {
   margin-top: 0px;
 }
-#main .tabs {
-    padding: 0px 0px 5px 0px;
-    margin: 0px;
+
+/* TABS */
+div.tabs ul {
+  padding: 0px;
+  margin: 0px 0px 5px 0px;
+  height: 26px;
 }
-#main .tabs .primary li a{
-    background: url("../img/tab_bg.jpg") repeat-x top left;
-    color: #333333;
-    border-top: 1px solid #DDD;
-    padding: 5px 20px 5px 20px;
+div.tabs ul li {
+  padding: 0px 0px;
+  margin-right: 3px;
+  display: block;
+  float: left;
+  border: 0px;
 }
-#main .tabs .primary .active {
-    background: #FFF;
+div.tabs li a {
+  color: #333333;
+  display: block;
+  float: left;
+  border: 0px;
+  margin-right: 3px;
+  height: 18px;
+  padding: 5px 20px 3px 20px;
+  background: #E9E9E9 url("../img/tab_bg.jpg") repeat-x top left;
 }
+div.tabs li a.active {
+  background: #FFFFFF;
+  border-bottom: 0px;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
 
 #main div.meta {
   background: #F0F2F3;
@@ -347,10 +366,10 @@ body.two-sidebars #main {
     background: url("../img/breadcrumb_bg.png") no-repeat top left;
     margin-top: 10px;
 }
-#breadcrumb div{
+#breadcrumb .breadcrumb{
     background: url("../img/breadcrumb_endbg.png") no-repeat top right;
-    height: 27px;
-    padding: 3px 10px 0px 10px;
+    height: 24px;
+    padding: 6px 10px 0px 10px;
 }
 #breadcrumb a {
     background: url("../img/breadcrumb_split.png") no-repeat 100% 50%;
