@@ -71,8 +71,7 @@ div.messages.warning {
 
 /* HEADER */
 #header {
-  background: transparent url(../img/header_bg.jpg) no-repeat left top;
-  width: 1280px;
+  background: transparent url(../img/header_bg.jpg) no-repeat center top;
   height: 140px;
   margin: 0px auto;
 }
@@ -124,7 +123,10 @@ div.messages.warning {
 
 #primary {
   background: transparent url(../img/header_bottom_bg.png) no-repeat left top;
-  height: 76px;
+  height: 59px;
+  clear: left;
+  width: 100%;
+  overflow: hidden;
 }
 
 #primary .primary-links a {
@@ -496,7 +498,6 @@ fieldset legend {
 
 #front-page {
   background: transparent url(../img/front_top_inner_bg.jpg) no-repeat left top;
-  width: 1280px;
   margin: 0px auto;
   min-height: 112px;
 }
